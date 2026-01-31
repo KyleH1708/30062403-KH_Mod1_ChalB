@@ -8,6 +8,7 @@ import {
   useMap,
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
+import { marker } from "leaflet";
 
 function MapClickHandler({ onMapClick }) {
   useMapEvent("click", (e) => {
